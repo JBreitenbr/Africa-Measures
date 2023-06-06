@@ -36,9 +36,9 @@ body {
   font-family: Arial;
   font-size: 24px;
 }
-#selectButton1 {
-  margin-top: 15px;
-}
+/* #selectButton1 {
+  margin-top: 8px;
+}*/
 .country-border {
             fill: none;
             stroke: #000000;

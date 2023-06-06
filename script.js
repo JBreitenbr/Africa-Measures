@@ -105,9 +105,6 @@ if(dim=="Fertility rate, total (births per woman)"){
   if(dim=="Population growth (annual %)"){
 
   color=d3.scaleSequential().interpolator(d3.interpolateBlues);
-
-  //color.domain([0,8]);
-
   }
 
 if(dim=="Prevalence of HIV, total (% of population ages 15-49)"){
@@ -148,9 +145,7 @@ let p2=d3.select("body").append("p").attr("id","p2").style("opacity",0);
 
 let Scale=d3.scaleLinear().domain([vals2[dimObj[dim]]["mini"],vals2[dimObj[dim]]["maxi"]]).range([pad,w-2.2*pad]);	
 
-//console.log(afroData2);  
-
-  canvas1.selectAll(".countries")
+canvas1.selectAll(".countries")
 
 	            .data(afroData)
 
@@ -254,10 +249,6 @@ canvas2.append("text").attr("x",pad).attr("y",0.935*h2).text("West:  Benin, Burk
 
 canvas2.append("text").attr("x",pad).attr("y",0.97*h2).text("Mali, Mauritania, Niger, Nigeria, Sierra Leone, Togo, Ghana, Senegal, Cape Verde").style("font",`${8/350*w}px arial`);}
 
-  /*
-
-canvas2.append("text").attr("x",pad/5).attr("y",0.905*h2).text("Central: Cameroon, Centr. Afr. Rep., Dem. R. Congo, R. Congo, Gabon, Equ.Guin., S.Tome a. P.").style("font",`${8/350*w}px arial`);*/
-
 if((["Seychelles","Somalia"].indexOf(reg)>-1)&&(dimObj[dim]=="hiv")){
 
 canvas2.append("text").attr("x",pad).attr("y",0.935*h2).text("East: Burundi, Djibouti, Eritrea, Ethiopia, Somalia, Rwanda, Kenya, Uganda, Tanzania,").style("font",`${8/350*w}px arial`);
@@ -304,19 +295,13 @@ if(dimObj[dim]=="tub"){
 
 }
 
-  /*if(dimObj[dim]=="grow"){
-
-  p=12/9;
-
-  }*/
-
 let l=[]
 
 if(dimObj[dim]!="tub"){
 
 for(let i=0;i<9;i++){
 
-  l.push((vals2[dimObj[dim]]["mini"]+/*p/2+*/i*p).toFixed(1));
+  l.push((vals2[dimObj[dim]]["mini"]+i*p).toFixed(1));
 
 }
 
@@ -326,7 +311,7 @@ if(dimObj[dim]=="tub"){
 
 for(let i=0;i<9;i++){
 
-  l.push((vals2[dimObj[dim]]["mini"]+/*p/2+*/i*p).toFixed(0));
+  l.push((vals2[dimObj[dim]]["mini"]+i*p).toFixed(0));
 
 }
 
@@ -384,23 +369,10 @@ canvas1.append("text").attr("x",140*350/w+w/50+i*Math.min(90,w/5.7)).attr("y",81
 
 }
 
-/*d3.select("#selectButton1").on("change")
-
-var selOpt=d3*/
-
-  
-
 d3.select("#selectButton1").on("change", function(d) {
+       let selectedOption = d3.select(this).property("value");
 
-        // recover the option that has been chosen
-
-        var selectedOption = d3.select(this).property("value");
-
-  
-
-    d3.select("#p1").text(selectedOption  );
-
-//update(selectedOption,"All Regions");
+d3.select("#p1").text(selectedOption  );
 
 let v2=document.getElementById('p2').innerText;
 
@@ -417,10 +389,7 @@ update(selectedOption,v2);}
 })
 
 d3.select("#selectButton2").on("change", function(d) {
-
-        // recover the option that has been chosen
-
-        var selectedOption2 = d3.select(this).property("value");
+let selectedOption2 = d3.select(this).property("value");
 
 d3.select("#p2").text(selectedOption2);
 
@@ -442,26 +411,6 @@ update(v1,selectedOption2);
 
                                }
 
-       /* function setResponsiveSVG() {
-
-            let calcString = +(h / w) * 100 + "%";
-
-//console.log(calcString);
-
-canvas1             .attr('preserveAspectRatio', 'xMinYMin')
-
-                .attr('viewBox', '0 0 ' + width + ' ' + height)
-
-                .attr('width', null)
-
-                .attr('height', null);
-
-        }*/
-
-//function addLegend() {
-
-  
-
-//}
+    
 
 d3.queue()   .defer(d3.json,"https://raw.githubusercontent.com/JBreitenbr/Africa-Health/main/africa.topojson").await(createMap);

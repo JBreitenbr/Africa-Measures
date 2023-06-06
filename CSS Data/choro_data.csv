@@ -1,0 +1,57 @@
+adm0_a3_is,geounit,Region,Capital,population,life_expectancy,infant_deaths,under5_deaths,fert,hiv,tub,grow
+DZA,Algeria,North,Algier,45061896,76.38,19.2,22.3,2.889,0.07,54.0,1.658
+AGO,Angola,Southern,Luanda,34566172,61.64,47.2,69.4,5.304,0.86,325.0,3.166
+BEN,Benin,West,Porto-Novo,12644580,59.82,55.2,83.5,4.973,0.2,53.0,2.76
+BWA,Botswana,Southern,Gaborone,2423535,61.14,28.3,34.9,2.791,6.03,235.0,1.637
+BFA,Burkina Faso,West,Ouagadougou,2184968,59.27,51.8,82.6,4.772,0.12,45.0,2.65
+BDI,Burundi,East,Gitega,12469663,61.66,37.6,52.6,5.078,0.13,100.0,2.672
+CMR,Cameroon,Central,Yaounde,27624492,60.33,47.0,69.8,4.463,0.77,164.0,2.636
+CPV,Cape Verde,West,Praia,565346,74.05,11.7,13.5,1.896,0.39,35.0,0.903
+CAF,Central African Republic,Central,Bangui,4971922,53.9,75.4,99.9,5.978,0.95,540.0,2.114
+TCD,Chad,West,N'Djamena,17203787,52.52,66.0,107.1,6.255,0.31,140.0,3.164
+COM,Comoros,Southern,Moroni,899658,63.42,39.3,49.7,3.978,0.01,35.0,1.899
+COD,Democratic Republic of the Congo,Central,Kinshasa,95894118,59.19,62.4,79.0,6.156,0.26,318.0,3.223
+DJI,Djibouti,East,Djibouti,1010377,62.3,45.9,54.1,2.804,0.19,204.0,1.403
+EGY,Egypt,North,Cairo,105390688,70.22,16.2,19.0,2.917,0.07,10.0,1.658
+GNQ,Equatorial Guinea,Central,Malabo,1477483,60.59,57.2,76.8,4.266,5.77,275.0,2.378
+ERI,Eritrea,East,Asmara,3633796,66.54,28.9,38.1,3.867,0.11,74.0,1.796
+SWZ,Eswatini,Southern,Mbabane,1192271,57.07,41.5,52.6,2.839,14.88,348.0,0.979
+ETH,Ethiopia,East,Addis Abeba,119590501,64.97,34.3,46.8,4.159,0.17,119.0,2.604
+GAB,Gabon,Central,Libreville,2310507,65.82,29.4,39.7,3.491,1.15,513.0,2.098
+GMB,Gambia,West,Banjul,2528326,62.08,34.0,47.9,4.684,1.4,149.0,2.529
+GHA,Ghana,West,Accra,32120718,63.8,32.6,44.0,3.563,0.86,136.0,2.008
+GIN,Guinea,West,Conakry,13709966,58.89,63.8,98.7,4.399,0.76,175.0,2.444
+GNB,Guinea Bissau,West,Bissau,2043512,59.65,50.0,74.3,4.005,1.56,361.0,2.203
+CIV,Ivory Coast,West,Yamoussoukro,27451054,58.6,55.9,74.8,4.418,0.33,128.0,2.455
+KEN,Kenya,East,Nairobi,55703607,61.43,28.0,37.2,3.335,1.17,251.0,1.943
+LSO,Lesotho,Southern,Maseru,2169209,53.06,57.0,72.9,3.018,8.1,614.0,1.206
+LBR,Liberia,West,Monrovia,5252834,60.75,56.7,76.0,4.089,0.52,308.0,2.059
+LBY,Libya,North,Tripolis,7007887,71.91,9.2,10.8,2.462,0.1,59.0,1.215
+MDG,Madagascar,Southern,Antananarivo,28860961,64.48,45.3,66.0,3.851,0.6,233.0,2.417
+MWI,Malawi,Southern,Lilongwe,19953296,62.9,31.2,41.9,3.917,1.93,132.0,2.611
+MLI,Mali,West,Bamako,21212426,58.94,61.6,97.1,5.956,0.42,50.0,3.158
+MRT,Mauritania,West,Nouakchott,4848828,64.36,32.2,40.5,4.398,0.2,81.0,2.554
+MAR,Western Sahara,North,"El Aayoun",620280,74.04 ,15.4,18.0,2.328,0.04,94.0,1.051
+MAR,Morocco,North,Rabat,37599544,74.04,15.4,18.0,2.328,0.04,94.0,1.051
+MOZ,Mozambique,Southern,Maputo,32696683,59.32,51.0,69.6,4.644,4.62,361.0,2.842
+NAM,Namibia,Southern,Windhoek,2614500,59.27,29.4,39.0,3.303,5.16,457.0,1.636
+NER,Niger,West,Niamey,25677816,61.58,59.5,115.2,6.82,0.06,79.0,3.707
+NGA,Nigeria,West,Abuja,214507696,52.68,70.6,110.8,5.237,0.44,219.0,2.406
+COG,Republic of Congo,Central,Brazzaville,5835806,63.52,32.0,43.0,4.171,3.8,370.0,2.316
+RWA,Rwanda,East,Kigali,13466174,66.07,29.7,39.4,3.821,0.52,56.0,2.372
+STP,Sao Tome and Principe,Central,Sao Tome,225954,67.59,12.1,15.4,3.823,0.06,114.0,2.022
+SEN,Senegal,West,Dakar,17462688,67.09,29.1,38.6,4.387,0.15,113.0,2.645
+SYC,Seychelles,East,Victoria,99124,73.4,12.0,13.9,2.46,0.84,12.0,0.805
+SLE,Sierra Leone,West,Freetown,8238113,60.06,78.3,104.7,3.978,0.54,289.0,2.242
+SOM,Puntland,East,Garoowe,16634297,55.28,71.1,111.8,6.312,0.84,250.0,3.146
+SOM,Somaliland,East,Hargeysa,16634297,55.28,71.1,111.8,6.312,0.84,250.0,3.146
+SOM,Somalia,East,Mogadishu,16634297,55.28,71.1,111.8,6.312,0.84,250.0,3.146
+ZAF,South Africa,Southern,Pretoria,60474550,62.34,26.4,32.8,2.374,6.9,513.0,0.999
+SSD,South Sudan,East,Juba,11493450,54.98,63.8,98.7,4.469,2.05,227.0,1.33
+SDN,Sudan,East,Khartoum,45532863,65.27,38.9,54.9,4.457,0.11,58.0,2.701
+TZA,Tanzania,East,Dodoma,62539416,66.2,34.1,47.1,4.726,1.55,208.0,3.007
+TGO,Togo,West,Lome,8596357,61.62,43.4,62.6,4.257,0.5,33.0,2.367
+TUN,Tunisia,North,Tunis,12003225,73.77,14.0,16.3,2.086,0.06,36.0,0.829
+UGA,Uganda,East,Kampala,47942521,62.7,31.2,42.1,4.585,2.4,199.0,3.211
+ZMB,Zambia,Southern,Lusaka,19238117,61.22,40.2,57.7,4.308,4.0,307.0,2.841
+ZWE,Zimbabwe,Southern,Harare,15229891,59.25,35.7,49.5,3.491,2.37,190.0,2.046
