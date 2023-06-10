@@ -39,26 +39,28 @@ let dimObj={
   "Population growth (annual %)":"grow"
 
 }
-
+d3.select("#div1").remove();
+d3.select("#wrapper").append("div").attr("id","div1");
 d3.select("#selectButton1").remove();
 
-d3.select("#wrapper").append("select").attr("id","selectButton1");
+d3.select("#div1").append("select").attr("id","selectButton1");
 
 d3.select("#canvas1").remove();
 
-let canvas1 = d3.select("#wrapper")
+let canvas1 = d3.select("#div1")
 
     .append("svg")
 
     .attr("id","canvas1");
-
+d3.select("#div2").remove();
+d3.select("#wrapper").append("div").attr("id","div2");
 d3.select("#selectButton2").remove();
 
-d3.select("#wrapper").append("select").attr("id","selectButton2");
+d3.select("#div2").append("select").attr("id","selectButton2");
 
 d3.select("#canvas2").remove();
 
-let canvas2 = d3.select("#wrapper").append("svg").attr("id","canvas2");
+let canvas2 = d3.select("#div2").append("svg").attr("id","canvas2");
 
 let toolTip=d3.select("#tooltip");
 
@@ -187,7 +189,7 @@ for(let i=0;i<56;i++){
 
 }          toolTip.style("visibility","visible").style("left",event.pageX+w/60+"px").style("top",event.pageY+h/50+"px").style("background-color","#fff8ed").attr("class","tip").style("border",`1px solid ${color(0.5*(vals2[dimObj[dim]["maxi"]]-vals2[dimObj[dim]["mini"]]))}`).style("font","10px arial")}).on("mouseleave",(cntItem)=>{toolTip.style("visibility","hidden");});
 
-  let calcString = +(h / w) * 100 + "%";
+//  let calcString = +(h / w) * 100 + "%";
 
 //console.log(calcString);
 
@@ -413,4 +415,4 @@ update(v1,selectedOption2);
 
     
 
-d3.queue()   .defer(d3.json,"https://raw.githubusercontent.com/JBreitenbr/Africa-Health/main/africa.topojson").await(createMap);
+d3.queue()   .defer(d3.json,"https://raw.githubusercontent.com/JBreitenbr/Africa-Measures/main/africa.topojson").await(createMap);

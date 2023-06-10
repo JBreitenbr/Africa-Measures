@@ -10,31 +10,51 @@ body {
         font-size: 32px;
         text-align: center;
       }
+/*#wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}*/
 #wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-
+#div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /*border: 3px solid darkred;*/
+}
+#div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  /*border: 3px solid navy;*/
+}
 #canvas1 {
-  width: 750px;
-  height: 680px;
+  width: 450px;
+  height: 450px;
  /* border: 1px solid darkred;*/
 }
 
 #canvas2 {
-  width: 750px;
-  height: 470px;
+  width: 450px;
+  height: 320px;
   font-family: 'Lora';
  /* border: 1px solid darkred;*/
 }
 
 #selectButton1, #selectButton2 {
-  height: 40px;
-  margin: 25px;
+  height: 30px;
+  margin: 20px;
   font-family: Arial;
-  font-size: 24px;
+  font-size: 18px;
 }
 /* #selectButton1 {
   margin-top: 8px;
@@ -48,7 +68,11 @@ body {
             stroke-linecap: round;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
+  #wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   #canvas1 {
      width: 500px;
      height: 450px;
@@ -73,6 +97,10 @@ body {
 }
 }
 @media screen and (max-width: 550px){
+  #wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   #canvas1 {
      width: 350px;
      height: 320px;
