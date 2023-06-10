@@ -206,9 +206,9 @@ canvas1             .attr('preserveAspectRatio', 'xMinYMin')
 //addLegend();
 let div1=d3.select("#div1");
 let div2=d3.select("#div2");	
-div1.style("border",`2px solid ${color(Math.abs(0.5*(vals2[dimObj[dim]]["maxi"]-vals2[dimObj[dim]]["mini"])))}`);
+div1.style("border",`1px solid ${color(Math.abs(0.5*(vals2[dimObj[dim]]["maxi"]-vals2[dimObj[dim]]["mini"])))}`);
 
-div2.style("border",`2px solid ${color(0.5*(vals2[dimObj[dim]]["maxi"]-vals2[dimObj[dim]]["mini"]))}`);
+div2.style("border",`1px solid ${color(0.5*(vals2[dimObj[dim]]["maxi"]-vals2[dimObj[dim]]["mini"]))}`);
 
 let years=[2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021];
 
