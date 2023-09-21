@@ -338,4 +338,4 @@ update(v1,selectedOption2);
     }
   });
 }
-d3.queue()   .defer(d3.json,"https://raw.githubusercontent.com/JBreitenbr/AfricaMeasures/main/africa.topojson").await(createMap);
+d3.queue()   .defer(d3.json,"https://raw.githubusercontent.com/JBreitenbr/Africa-Measures/main/africa.topojson").await(createMap);
