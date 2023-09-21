@@ -1,0 +1,191 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+            font-family: 'Lora',Minion, Helvetica;
+        background-color:#f3f3f3;
+        }
+      h2 {
+        font-size: 32px;
+        text-align: center;
+      }
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin:0;
+}
+#div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  margin:0;
+}
+
+#canvas1 {
+  width: 700px;
+  height: 600px;
+  margin:0;
+}
+
+#canvas2 {
+  width: 700px;
+  height: 480px;
+  font-family: 'Lora';
+  margin: 0;
+}
+
+#selectButton1, #selectButton2 {
+  height: 30px;
+  margin: 20px;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+.country-border {
+            fill: none;
+            stroke: #000000;
+            stroke-width: 0.5px;
+            pointer-events:all;
+            stroke-linejoin: round;
+            stroke-linecap: round;
+}
+
+@media screen and (max-width: 1420px){
+  
+  #canvas1 {
+     width: 600px;
+     height: 550px;
+  }
+
+  #canvas2 {
+     width: 600px;
+     height: 420px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+  
+  #div2 {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  #selectButton1, #selectButton2 {
+  height: 40px;
+  margin: 30px;
+  font-size: 24px;
+}
+}
+@media screen and (max-width: 1120px){
+  
+  #canvas1 {
+     width: 480px;
+     height: 450px;
+  }
+
+  #canvas2 {
+     width: 480px;
+     height: 380px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+  
+  #div2 {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  #selectButton1, #selectButton2 {
+  height: 35px;
+  margin: 28px;
+  font-size: 20px;
+  }
+}
+@media screen and (max-width: 1000px){
+  #wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #canvas1 {
+     width: 500px;
+     height: 450px;
+  }
+
+  #canvas2 {
+     width: 500px;
+     height: 320px;
+  }
+
+  #div2 {
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  #selectButton1, #selectButton2 {
+  height: 30px;
+  margin: 20px;
+  font-size: 18px;
+}
+#selectButton1 {
+  margin-top: 10px;
+}
+}
+@media screen and (max-width: 550px){
+  #wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #canvas1 {
+     width: 350px;
+     height: 320px;
+  }
+
+  #canvas2 {
+     width: 350px;
+     height: 220px;
+  }
+
+  #div2 {
+    align-items: center;
+  }
+ 
+  #selectButton1, #selectButton2 {
+  height: 20px;
+  margin: 15px;
+  font-family: Arial;
+  font-size: 14px;
+  }
+#selectButton1 {
+  margin-top: 15px;
+}
+  h2 {
+    font-size: 18px;
+  }
+}
+
+#tooltip {
+  position: absolute;
+  visibility: hidden;
+}
+
+.tip {
+  padding: 5px;
+  }
